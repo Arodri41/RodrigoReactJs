@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.card {
+  min-width: 500px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  width: fit-content;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 16px;
+}
+
+.card-image {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 16px;
+}
+
+.empty-cart-message {
+  text-align: center;
+}

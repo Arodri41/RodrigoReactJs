@@ -1,0 +1,14 @@
+.navContainer {
+  width: 100%;
+  background-color: rgb(172, 144, 144);
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.containerCategories {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
